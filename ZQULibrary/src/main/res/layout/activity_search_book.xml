@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_bg_color"
+    android:orientation="vertical" >
+
+    <RelativeLayout style="@style/titlebar" >
+
+        <TextView
+            android:id="@+id/searchBook_titlebar_title"
+            style="@style/titlebar_title"
+            android:text="@string/searchBook_title" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/searchBook_rl1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/content_border_margin"
+        android:layout_marginRight="@dimen/content_border_margin"
+        android:layout_marginTop="@dimen/content_top_margin" >
+
+        <TextView
+            android:id="@+id/searchBook_bookLocation_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="@string/searchBook_bookLocation"
+            android:textColor="@color/common_text_color"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/searchBook_bookLocationSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="@dimen/content_border_margin"
+            android:layout_toRightOf="@+id/searchBook_bookLocation_tv"
+            android:background="@drawable/selector_spinner_bg"
+            android:entries="@array/search_book_location" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/searchBook_keyWord_edt"
+        style="@style/input_box"
+        android:layout_marginTop="@dimen/content_border_margin"
+        android:hint="@string/searchBook_inputHint" />
+
+    <Button
+        android:id="@+id/searchBook_search_btn"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_btn_height"
+        android:layout_marginLeft="@dimen/content_border_margin"
+        android:layout_marginRight="@dimen/content_border_margin"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/selector_btn_bg"
+        android:text="@string/searchBook_search"
+        android:textColor="@drawable/btn_text_color"
+        android:textSize="20sp" />
+
+</LinearLayout>

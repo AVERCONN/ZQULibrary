@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- titlebar “返回”按钮被按下时的背景 -->
+    <item 
+        android:state_pressed="true"
+        android:drawable="@drawable/titlebar_back_btn_1" />
+    
+    <!-- titlebar “返回”按钮默认的背景 -->
+    <item 
+        android:drawable="@drawable/titlebar_back_btn_0" />
+</selector>

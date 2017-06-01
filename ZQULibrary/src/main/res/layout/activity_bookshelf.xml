@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_bg_color"
+    android:orientation="vertical" >
+
+    <RelativeLayout style="@style/titlebar" >
+
+        <TextView
+            android:id="@+id/bookshelf_titlebar_title"
+            style="@style/titlebar_title"
+            android:text="@string/bookshelf_title" />
+    </RelativeLayout>
+    
+    <ListView
+        android:id="@+id/bookshelf_bookCategory_lv"
+        style="@style/listview" />
+	
+</LinearLayout>

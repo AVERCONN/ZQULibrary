@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/content_border_margin"
+    android:background="@drawable/selector_list_item_bg" >
+    
+    <TextView 
+        android:id="@+id/bookshelfListItemStyle_content_tv"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:drawableRight="@drawable/list_item_arrow"
+        android:text="A 马克思主义、列宁主义、毛泽东思想 "
+        android:textColor="@color/common_text_color"
+        android:textSize="20sp"
+        android:gravity="left|center_vertical" />
+
+</LinearLayout>

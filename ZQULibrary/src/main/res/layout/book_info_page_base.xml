@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout style="@style/bookInfoPageBase_item_parent" >
+
+            <TextView
+                style="@style/bookInfoPageBase_item"
+                android:text="@string/book_info_book_name" />
+
+            <TextView
+                android:id="@+id/bookInfoPageBase_bookName_tv"
+                style="@style/bookInfoPageBase_item"
+                android:layout_marginLeft="@dimen/content_border_margin" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/bookInfoPageBase_item_parent" >
+
+            <TextView
+                style="@style/bookInfoPageBase_item"
+                android:text="@string/book_info_book_writer" />
+
+            <TextView
+                android:id="@+id/bookInfoPageBase_bookWriter_tv"
+                style="@style/bookInfoPageBase_item"
+                android:layout_marginLeft="@dimen/content_border_margin" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/bookInfoPageBase_item_parent" >
+
+            <TextView
+                style="@style/bookInfoPageBase_item"
+                android:text="@string/book_info_book_press" />
+
+            <TextView
+                android:id="@+id/bookInfoPageBase_bookPress_tv"
+                style="@style/bookInfoPageBase_item"
+                android:layout_marginLeft="@dimen/content_border_margin" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/bookInfoPageBase_item_parent" >
+
+            <TextView
+                style="@style/bookInfoPageBase_item"
+                android:text="@string/book_info_book_pulicationData" />
+
+            <TextView
+                android:id="@+id/bookInfoPageBase_bookPulicationData_tv"
+                style="@style/bookInfoPageBase_item"
+                android:layout_marginLeft="@dimen/content_border_margin" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/bookInfoPageBase_item_parent" >
+
+            <TextView
+                style="@style/bookInfoPageBase_item"
+                android:text="@string/book_info_book_location" />
+
+            <TextView
+                android:id="@+id/bookInfoPageBase_bookLocation_tv"
+                style="@style/bookInfoPageBase_item"
+                android:layout_marginLeft="@dimen/content_border_margin" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/bookInfoPageBase_item_parent" >
+
+            <TextView
+                style="@style/bookInfoPageBase_item"
+                android:text="@string/book_info_book_indexNo" />
+
+            <TextView
+                android:id="@+id/bookInfoPageBase_bookIndexNo_tv"
+                style="@style/bookInfoPageBase_item"
+                android:layout_marginLeft="@dimen/content_border_margin" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/bookInfoPageBase_item_parent" >
+
+            <TextView
+                style="@style/bookInfoPageBase_item"
+                android:text="@string/book_info_book_status" />
+
+            <TextView
+                android:id="@+id/bookInfoPageBase_bookStatus_tv"
+                style="@style/bookInfoPageBase_item"
+                android:layout_marginLeft="@dimen/content_border_margin" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/bookInfoPageBase_item_parent" >
+
+            <TextView
+                style="@style/bookInfoPageBase_item"
+                android:text="@string/book_info_book_language" />
+
+            <TextView
+                android:id="@+id/bookInfoPageBase_bookLanguage_tv"
+                style="@style/bookInfoPageBase_item"
+                android:layout_marginLeft="@dimen/content_border_margin" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

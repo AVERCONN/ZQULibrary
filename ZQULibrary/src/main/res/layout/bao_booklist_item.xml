@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:id="@+id/booklist_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:background="#00000000"
+        />
+
+    <TextView 
+        android:id="@+id/booklist_publish"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:background="#00000000"
+        />
+    
+    <TextView 
+        android:id="@+id/booklist_date"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:background="#00000000"
+        />
+    
+    <TextView 
+        android:id="@+id/booklist_searchno"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FF1493"
+        android:textSize="18sp"
+        android:background="#00000000"
+        />
+    
+</LinearLayout>

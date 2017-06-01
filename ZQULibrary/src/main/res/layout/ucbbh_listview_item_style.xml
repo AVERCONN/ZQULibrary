@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 借书历史listview样式 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_list_item_bg"
+    android:orientation="vertical"
+    android:padding="@dimen/content_border_margin" >
+
+    <TextView
+        android:id="@+id/ucbbhListviewItemStyle_bookName_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android 应用性能优化"
+        android:textColor="#454545"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/ucbbhListviewItemStyle_borrowDate_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/content_border_margin"
+        android:text="借期:2013-10-16"
+        android:textColor="@color/common_text_color"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/ucbbhListviewItemStyle_returnDate_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="还期:2013-10-27"
+        android:textColor="@color/common_text_color"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/ucbbhListviewItemStyle_bookType_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="图书类型:中文图书"
+        android:textColor="@color/common_text_color"
+        android:textSize="15sp" />
+
+</LinearLayout>

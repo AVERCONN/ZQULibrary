@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_bg_color"
+    tools:context=".BookInfoActivity" >
+
+    <RelativeLayout
+        android:id="@+id/bookInfo_titlebar"
+        style="@style/titlebar" >
+
+        <TextView
+            android:id="@+id/bookInfo_titlebar_title"
+            style="@style/titlebar_title"
+            android:text="@string/book_info_title" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/bookInfo_tab"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/bookInfo_titlebar" >
+
+        <TextView
+            android:id="@+id/bookInfo_baseInfo_tab_tv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab_bg_1"
+            android:gravity="center"
+            android:text="@string/book_info_base"
+            android:textColor="@color/common_text_color"
+            android:textSize="20sp" />
+
+        <ImageView 
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:contentDescription="@string/book_info_title"
+            android:background="#cccccc" />
+        
+        <TextView
+            android:id="@+id/bookInfo_intro_tab_tv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/tab_bg_0"
+            android:gravity="center"
+            android:text="@string/book_info_content"
+            android:textColor="@color/common_text_color"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/bookInfo_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/bookInfo_tab" >
+    </android.support.v4.view.ViewPager>
+
+</RelativeLayout>

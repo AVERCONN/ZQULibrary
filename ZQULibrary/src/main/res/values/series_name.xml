@@ -1,0 +1,829 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 分类父项 -->
+   <string-array name="series_parentname">
+       <item> A 马克思主义、列宁主义、毛泽东思想</item>
+       <item>B 哲学</item>
+       <item>C 社会科学总论</item>
+       <item >D 政治、法律 </item>
+       <item>E 军事</item>
+       <item>F 经济</item>
+       <item>G1 世界各国文化事业概况</item>
+       <item>G2 信息与知识传播</item>
+       <item >G3 科学、科学研究</item>
+       <item>G4 教育</item>
+       <item>H 语言、文字</item>
+       <item>I 文学 </item>
+       <item>J 艺术</item>
+       <item>K 历史、地理</item>
+       <item>N 自然科学总论</item>
+       <item>O1 数学</item>
+       <item>O3 力学</item>
+       <item >O4 物理学</item>
+       <item>O6 化学</item>
+       <item>O7 晶体学</item>
+       <item>P 天文学、地球科学</item>
+       <item>Q 生物科学</item>
+       <item>R 医药、卫生</item>
+       <item >S 农业科学</item>
+       <item>TB 一般工业技术</item>
+       <item>TD 矿业工程</item>
+       <item>TE 石油、天然气工业 </item>
+       <item>TF 冶金工业</item>
+       <item>TG 金属学、金属工艺</item>
+       <item>TH 机械、仪表工业</item>
+       <item>TJ 武器工业</item>
+       <item>TK 动力工程</item>
+       <item >TL 原子能技术</item>
+       <item>TM 电工技术</item>
+       <item>TN 无线电电子学、电信技术</item>
+       <item >TP 自动化技术、计算技术</item>
+       <item>TQ 化学工业</item>
+       <item >TS 轻工业、手工业</item>
+       <item >TU 建筑科学 </item>
+       <item >TV 水利工程</item>
+       <item >U 交通运输</item>
+       <item >V 航空、航天 </item>
+       <item >X 环境科学、劳动保护科学</item>
+       <item>Z 综合性图书</item>
+   </string-array>
+   
+   <!-- 分类子项 -->
+   <string-array name="series_childname1">
+       <item>A1 马克思、恩格斯著作</item>
+        <item>A2 列宁著作</item>
+        <item>A3 斯大林著作机</item>
+        <item>A4 毛泽东著作</item>
+        <item>A49 邓小平著作</item>
+        <item>A5 马、恩、列、斯、毛著作汇编 </item>
+        <item>A7 马、恩、列、斯、毛的生平和传记</item>
+        <item>A8 马列主义、毛泽东思想的学习和研究</item>
+   </string-array>
+   <string-array name="series_childname2">
+       <item>B0 哲学理论</item>
+        <item>B1 世界哲学</item>
+        <item>B2 中国哲学</item>
+        <item>B3 亚洲哲学</item>
+        <item>B4 非洲哲学</item>
+        <item>B5 欧洲哲学</item>
+        <item>B6 大洋洲哲学</item>
+        <item>B7 美洲哲学</item>
+        <item>B80 思维科学（总论）</item>
+        <item>B81 逻辑学（论理学）</item>
+        <item>B82 伦理学（道德哲学）</item>
+        <item>B83 美学</item>
+        <item>B84 心理学</item>
+        <item>B9 无神论、宗教</item>
+   </string-array>
+   <string-array name="series_childname3">
+       <item>C0 社会科学理论与方法论</item>
+        <item>C1 社会科学现状、概况</item>
+        <item>C2 机关、团体、会议</item>
+        <item>C3 社会科学研究方法</item>
+        <item>C4 社会科学教育与普及</item>
+        <item>C5 社会科学丛书、文集、连续性出版物 </item>
+        <item>C6 社会科学参考工具书</item>
+        <item>C7 社会科学文献检索工具书</item>
+        <item>C8 统计学</item>
+        <item>C91 社会学</item>
+        <item>C92 人口学</item>
+        <item>C93 管理学</item>
+        <item>C94 系统科学</item>
+        <item>C95 民族学</item>
+        <item>C96 人才学</item>
+        <item>C97 劳动科学</item>
+   </string-array>
+   <string-array name="series_childname4">
+       <item>D0 政治理论</item>
+        <item>D1 国际共产主义运动</item>
+        <item>D2 中国共产党</item>
+        <item>D29 中国共产主义青年团</item>
+        <item>D3 各国共产党</item>
+        <item>D4 工人、农民、青年、妇女运动与组织 </item>
+        <item>D5 世界政治</item>
+        <item>D6 中国政治</item>
+        <item>D7 各国政治</item>
+        <item>D8 外交、国际关系</item>
+        <item>D80 外交、国际关系理论</item>
+        <item>D81 国际关系</item>
+        <item>D82 中国外交</item>
+        <item>D83 亚洲各国外交</item>
+        <item>D84 非洲各国外交</item>
+        <item>D85 欧洲各国外交</item>
+        <item>D86 大洋洲各国外交</item>
+        <item>D87 美洲各国外交</item>
+        <item>D9 法律</item>
+        <item>D90 法的理论律</item>
+        <item>D91 法学各部门</item>
+        <item>D92 中国法律</item>
+        <item>D93 亚洲各国法律</item>
+        <item>D94 非洲各国法律</item>
+        <item>D95 欧洲各国法律</item>
+        <item>D96 大洋洲各国外交</item>
+        <item>D97 美洲各国法律</item>
+        <item>D99 国际法交</item>
+        <item>DF 法律</item>
+   </string-array>
+   <string-array name="series_childname5">
+       <item>E0 军事理论</item>
+        <item>E1 世界军事</item>
+        <item>E2 中国军事</item>
+        <item>E3 亚洲各国军事</item>
+        <item>E4 非洲各国军事</item>
+        <item>E5 欧洲各国军事 </item>
+        <item>E6 大洋洲及太平洋岛屿各国军事</item>
+        <item>E7 美洲各国军事</item>
+        <item>E8 战略、战役、战术</item>
+        <item>E9 军事技术</item>
+        <item>E99 军事地形学、军事地理学</item>
+   </string-array>
+   <string-array name="series_childname6">
+       <item>F0 政治经济学</item>
+        <item>F1 世界各国经济概况、经济史、经济地理</item>
+        <item>F11 世界经济、国际经济关系</item>
+        <item>F12 中国经济</item>
+        <item>F13 亚洲各国经济</item>
+        <item>F14 非洲各国经济</item>
+        <item>F15 欧洲各国经济</item>
+        <item>F16 大洋洲及太平洋岛屿各国经济</item>
+        <item>F17 美洲各国经济</item>
+        <item>F2 经济计划与管理</item>
+        <item>F20 国民经济管理</item>
+        <item>F21 经济计划</item>
+        <item>F22 经济计算、经济数学方法</item>
+        <item>F23 会计 </item>
+        <item>F239 审计</item>
+        <item>F24 劳动经济</item>
+        <item>F25 物资经济</item>
+        <item>F27 企业经济</item>
+        <item>F28 基本建设经济</item>
+        <item>F29 城市与市政经济</item>
+        <item>F3 农业经济</item>
+        <item>F4 工业经济编 </item>
+        <item>F49 信息产业经济（总论）</item>
+        <item>F5 交通运输经济</item>
+        <item>F59 旅游经济</item>
+        <item>F6 邮电经济</item>
+        <item>F7 贸易经济</item>
+        <item>F71 国内贸易经济</item>
+        <item>F72 中国国内贸易经济</item>
+        <item>F73 世界各国国内贸易经济</item>
+        <item>F74 国际贸易</item>
+        <item>F75 各国对外贸易</item>
+        <item>F76 商品学</item>
+        <item>F8 财政、金融</item>
+        <item>F81 财政、国家财政</item>
+        <item>F82 货币</item>
+        <item>F83 金融、银行</item>
+        <item>F84 保险</item>
+   </string-array>
+   <string-array name="series_childname7_1">
+       <item>G0 文化理论</item>
+        <item>G11 世界</item>
+        <item>G12 中国</item>
+        <item>G13 亚洲各国</item>
+        <item>G14 非洲各国</item>
+        <item>G15 欧洲各国</item>
+        <item>G16 大洋洲及太平洋岛屿</item>
+        <item>G17 美洲各国</item>
+   </string-array>
+   <string-array name="series_childname7_2">
+       <item>G20 信息与传播理论</item>
+        <item>G21 新闻学、新闻事业</item>
+        <item>G22 广播、电视事业</item>
+        <item>G23 出版事业</item>
+        <item>G24 群众文化事业</item>
+        <item>G25 图书馆学、图书馆事业</item>
+        <item>G26 博物馆学、博物馆事业</item>
+        <item>G27 档案学、档案事业</item>
+   </string-array>
+   <string-array name="series_childname7_3">
+        <item>G30 科学研究理论</item>
+        <item>G31 科学研究工作</item>
+        <item>G32 世界各国科学研究事业</item>
+        <item>G35 情报学、情报工作</item>
+   </string-array>
+   <string-array name="series_childname7_4">
+       <item>G40 教育学</item>
+        <item>G41 思想政治教育、德育</item>
+        <item>G42 教学理论</item>
+        <item>G43 电化教学</item>
+        <item>G44 教育心理学</item>
+        <item>G45 教师与学生 </item>
+        <item>G459 学校与家庭、学校与社会</item>
+        <item>G46 教育行政</item>
+        <item>G47 学校管理</item>
+        <item>G48 学校建筑和设备</item>
+        <item>G51 世界教育事业</item>
+        <item>G52 中国教育事业</item>
+        <item>G53 亚洲各国教育事业 </item>
+        <item>G54 非洲各国教育事业</item>
+        <item>G55 欧洲各国教育事业</item>
+        <item>G56 大洋洲各国教育事业</item>
+        <item>G57 美洲各国教育事业</item>
+        <item>G61 学前教育、幼儿教育</item>
+        <item>G62 初等教育</item>
+        <item>G63 中等教育 </item>
+        <item>G64 高等教育</item>
+        <item>G65 师范教育</item>
+        <item>G71 职业技术教育</item>
+        <item>G72 成人教育、业余教育</item>
+        <item>G74 华侨教育、侨民教育</item>
+        <item>G75 少数民族教育</item>
+        <item>G76 特殊教育</item>
+        <item>G77 社会教育</item>
+        <item>G78 家庭教育</item>
+        <item>G79 自学</item>
+        <item>G8 体育</item>
+   </string-array>
+   <string-array name="series_childname8">
+       <item>H0 语言学</item>
+        <item>H002 语言规范化</item>
+        <item>H003 语言的分类</item>
+        <item>H004 语言的分布</item>
+        <item>H01 语音学</item>
+        <item>H02 文字学 </item>
+        <item>H03 语义学、词汇学、词义学</item>
+        <item>H04 语法学</item>
+        <item>H05 写作学、修辞学</item>
+        <item>H059 翻译学</item>
+        <item>H06 词典学</item>
+        <item>H07 方言学</item>
+        <item>H08 应用语言学</item>
+        <item>H09 语文教学 </item>
+        <item>H1 汉语</item>
+        <item>H102 汉语的规范化、标准化、推广普通话</item>
+        <item>H109.2 古代汉语</item>
+        <item>H109.4 现代汉语</item>
+        <item>H11 语音（音韵学）</item>
+        <item>H12 文字学作</item>
+        <item>H13 语义、词汇、词义（训诂学）</item>
+        <item>H14 语法</item>
+        <item>H15 写作、修辞</item>
+        <item>H159 翻译</item>
+        <item>H16 字典、词典、古代字书</item>
+        <item>H17 方言</item>
+        <item>H19 汉语教学</item>
+        <item>H2 中国少数民族语言</item>
+        <item>H3 常用外国语</item>
+        <item>H31 英语 </item>
+        <item>H32 法语</item>
+        <item>H33 德语</item>
+        <item>H34 西班牙语</item>
+        <item>H35 俄语</item>
+        <item>H36 日语</item>
+        <item>H37 阿拉伯语</item>
+        <item>H4 汉藏语系</item>
+        <item>H5 阿尔泰语系 </item>
+        <item>H61 南亚语系</item>
+        <item>H62 南印语系</item>
+        <item>H63 南岛语系</item>
+        <item>H64 东北亚诸语言</item>
+        <item>H65 伊比利亚－高加索语系</item>
+        <item>H66 芬兰－乌戈尔语系</item>
+        <item>H67 闪－含语系</item>
+        <item>H7 印欧语系 </item>
+        <item>H81 非洲诸语言</item>
+        <item>H83 美洲诸语言</item>
+        <item>H84 大洋洲诸语言</item>
+        <item>H9 国际辅助语</item>
+   </string-array>
+   <string-array name="series_childname9">
+        <item>I0 文学理论</item>
+        <item>I1 世界文学</item>
+        <item>I106 作品评论和研究</item>
+        <item>I109 文学史、文学思想史</item>
+        <item>I11 作品集</item>
+        <item>I2 中国文学 </item>
+        <item>I200 方针政策及其阐述</item>
+        <item>I206 文学评论和研究</item>
+        <item>I207 各体文学评论和研究</item>
+        <item>I209 文学史、文学思想史</item>
+        <item>I21 作品集</item>
+        <item>I22 诗歌、韵文</item>
+        <item>I23 戏剧</item>
+        <item>I24 小说 </item>
+        <item>I25 报告文学</item>
+        <item>I26 散文</item>
+        <item>I269 杂著</item>
+        <item>I27 民间文学</item>
+        <item>I28 儿童文学</item>
+        <item>I29 少数民族文学</item>
+        <item>I299 宗教文学</item>
+        <item>I3 亚洲各国文学</item>
+        <item>I4 非洲各国文学</item>
+        <item>I5 欧洲各国文学</item>
+        <item>I6 大洋洲及太平洋岛屿各国文学</item>
+        <item>I7 美洲各国文学</item>
+   </string-array>
+   <string-array name="series_childname10">
+        <item>J0 艺术理论</item>
+        <item>J01 艺术美学</item>
+        <item>J02 艺术理论的基本问题</item>
+        <item>J03 艺术工作者</item>
+        <item>J04 艺术创作方法和经验</item>
+        <item>J05 艺术评论、欣赏 </item>
+        <item>J06 造型艺术理论</item>
+        <item>J08 艺术技法</item>
+        <item>J1 世界各国艺术概况</item>
+        <item>J11 世界艺术</item>
+        <item>J12 中国艺术</item>
+        <item>J13 亚洲各国艺术</item>
+        <item>J14 非洲各国艺术</item>
+        <item>J15 欧洲各国艺术 </item>
+        <item>J16 大洋洲各国艺术</item>
+        <item>J17 美洲各国艺术</item>
+        <item>J19 宗教艺术</item>
+        <item>J2 绘画</item>
+        <item>J29 书法、篆刻</item>
+        <item>J3 雕塑</item>
+        <item>J4 摄影艺术</item>
+        <item>J5 工艺美术 </item>
+        <item>J59 建筑艺术</item>
+        <item>J6 音乐</item>
+        <item>J7 舞蹈</item>
+        <item>J8 戏剧艺术</item>
+        <item>J9 电影、电视艺术</item>
+   </string-array>
+   <string-array name="series_childname11">
+       <item>K0 史学理论</item>
+        <item>K1 世界史</item>
+        <item>K2 中国史</item>
+        <item>K3 亚洲史</item>
+        <item>K4 非洲史</item>
+        <item>K5 欧洲史 </item>
+        <item>K6 大洋洲史</item>
+        <item>K7 美洲史</item>
+        <item>K81 传记</item>
+        <item>K85 文物考古 </item>
+        <item>K89 风俗习惯</item>
+        <item>K9 地理</item>
+   </string-array>
+   <string-array name="series_childname12">
+       <item>N0 自然科学理论与方法论</item>
+        <item>N1 自然科学现状、概况</item>
+        <item>N2 自然科学机关、团体、会议</item>
+        <item>N3 自然科学研究方法</item>
+        <item>N4 自然科学教育及普及</item>
+        <item>N5 自然科学丛书、文集、连续性出版物 </item>
+        <item>N6 自然科学参考工具书</item>
+        <item>N7 自然科学文献检索工具书</item>
+        <item>N8 自然科学调查、考察</item>
+        <item>N91 自然研究、自然历史</item>
+        <item>N94 系统论（系统学、系统工程）</item>
+   </string-array>
+   <string-array name="series_childname13_1">
+       <item>O11 古典数学</item>
+        <item>O12 初等数学</item>
+        <item>O13 高等数学</item>
+        <item>O14 数理逻辑、数学基础</item>
+        <item>O15 代数、数论、组合理论 </item>
+        <item>O17 数学分析</item>
+        <item>O18 几何、拓扑</item>
+        <item>O19 整体分析、流形上分析</item>
+        <item>O21 概率论、数理统计</item>
+        <item>O22 运筹学</item>
+        <item>O23 控制论、信息论（数学理论）</item>
+        <item>O24 计算数学</item>
+        <item>O29 应用数学 </item>
+   </string-array>
+   <string-array name="series_childname13_2">
+        <item>O31 理论力学（一般力学）</item>
+        <item>O32 振动理论</item>
+        <item>O33 连续介质力学</item>
+        <item>O34 固体力学</item>
+        <item>O35 流体力学</item>
+   </string-array>
+   <string-array name="series_childname13_3">
+       <item>O41 理论物理学 </item>
+        <item>O42 声学</item>
+        <item>O43 光学</item>
+        <item>O44 电磁学、电动力学</item>
+        <item>O45 无线电物理学</item>
+        <item>O46 真空电子学</item>
+        <item>O47 半导体物理学</item>
+        <item>O48 固体物理学</item>
+        <item>O51 低温物理学 </item>
+        <item>O52 高压与高温物理学</item>
+        <item>O53 等离子体物理学</item>
+        <item>O55 热学与物质分子运动论</item>
+        <item>O56 分子物理学、原子物理学</item>
+        <item>O57 原子核物理学、高能物理学</item>
+        <item>O59 应用物理学</item>
+   </string-array>
+   <string-array name="series_childname13_4">
+       <item>O61 无机化学 </item>
+        <item>O62 有机化学</item>
+        <item>O63 高分子化学</item>
+        <item>O64 物理化学</item>
+        <item>O65 分析化学</item>
+        <item>O69 应用化学</item>
+   </string-array>
+   <string-array name="series_childnmae13_5">
+       <item>O71 几何晶体学</item>
+        <item>O72 X射线晶体学</item>
+        <item>O73 晶体物理</item>
+        <item>O74 晶体化学</item>
+        <item>O75 非晶态和类晶态</item>
+        <item>O76 晶体结构</item>
+        <item>O77 晶体缺陷</item>
+        <item>O78 晶体生长</item>
+        <item>O79 晶体物理化学过程</item>
+        <item>O799 应用晶体学 </item>
+   </string-array>
+   <string-array name="series_childname14">
+       <item>P1 天文学</item>
+        <item>P2 测绘学</item>
+        <item>P3 地球物理学</item>
+        <item>P4 气象学</item>
+        <item>P5 地质学</item>
+        <item>P51 动力地质学 </item>
+        <item>P52 古生物学</item>
+        <item>P53 历史地质学、地层学</item>
+        <item>P54 构造地质学</item>
+        <item>P55 地质力学</item>
+        <item>P56 区域地质学</item>
+        <item>P57 矿物学</item>
+        <item>P58 岩石学</item>
+        <item>P59 地球化学 </item>
+        <item>P61 矿床学</item>
+        <item>P62 地质、矿产普查与勘探</item>
+        <item>P64 水文地质学与工程地质学</item>
+        <item>P65 地震地质学</item>
+        <item>P66 环境地质学</item>
+        <item>P67 海洋地质学</item>
+        <item>P68 宇宙地质学</item>
+        <item>P69 环境地质学 </item>
+        <item>P691 行星地质学</item>
+        <item>P694 灾害地质学</item>
+        <item>P7 海洋学学</item>
+        <item>P9 自然地理学</item>
+   </string-array>
+   <string-array name="series_childname15">
+       <item>Q1 普通生物学</item>
+        <item>Q2 细胞学</item>
+        <item>Q3 遗传学</item>
+        <item>Q4 生理学</item>
+        <item>Q5 生物化学</item>
+        <item>Q6 生物物理学</item>
+        <item>Q7 分子生物学</item>
+        <item>Q81 生物工程学</item>
+        <item>Q811 仿生学</item>
+        <item>Q91 古生物学</item>
+        <item>Q93 微生物学</item>
+        <item>Q94 植物学</item>
+        <item>Q95 动物学</item>
+        <item>Q96 昆虫学</item>
+        <item>Q98 人类学</item>
+   </string-array>
+   <string-array name="series_childname16">
+       <item>R1 预防医学、卫生学</item>
+        <item>R2 中国医学</item>
+        <item>R3 基础医学</item>
+        <item>R4 临床医学</item>
+        <item>R5 内科学</item>
+        <item>R6 外科学</item>
+        <item>R71 妇产科学</item>
+        <item>R72 儿科学</item>
+        <item>R73 肿瘤学</item>
+        <item>R74 神经病学与精神病学</item>
+        <item>R75 皮肤病学与性病学</item>
+        <item>R76 耳鼻喉科学</item>
+        <item>R77 眼科学</item>
+        <item>R78 口腔科学</item>
+        <item>R79 外国民族医学</item>
+        <item>R8 特种医学</item>
+        <item>R9 药学</item>
+   </string-array>
+   <string-array name="series_childname17">
+       <item>S1 农业基础科学</item>
+        <item>S2 农业工程</item>
+        <item>S3 农学</item>
+        <item>S4 植物保护</item>
+        <item>S5 农作物</item>
+        <item>S6 园艺 </item>
+        <item>S7 林业</item>
+        <item>S8 畜牧、兽医、狩猎、蚕、蜂</item>
+        <item>S9 水产、渔业</item>
+   </string-array>
+   <string-array name="series_childname18_1">
+        <item>TB1 工程基础科学</item>
+        <item>TB2 工程设计与测绘</item>
+        <item>TB3 工程材料学</item>
+        <item>TB4 工业通用技术与设备</item>
+        <item>TB5 声学工程 </item>
+        <item>TB6 制冷工程</item>
+        <item>TB7 真空技术</item>
+        <item>TB8 摄影技术</item>
+        <item>TB9 计量学</item>
+   </string-array>
+   <string-array name="series_childname18_2">
+       <item>TD1 矿山地质与测量</item>
+        <item>TD2 矿山设计与建设</item>
+        <item>TD3 矿山压力与支护 </item>
+        <item>TD4 矿山机械</item>
+        <item>TD5 矿山运输与设备</item>
+        <item>TD6 矿山电工</item>
+        <item>TD7 矿山安全与劳动保护</item>
+        <item>TD8 矿山开采</item>
+        <item>TD80 一般性问题</item>
+        <item>TD82 煤矿开采</item>
+        <item>TD83 油母页岩开采 </item>
+        <item>TD84 煤及油母页岩地下气化</item>
+        <item>TD85 金属矿开采</item>
+        <item>TD87 非金属矿开采</item>
+        <item>TD9 选矿</item>
+        <item>TD98 矿产资源的综合利用</item>
+   </string-array>
+   <string-array name="series_childname18_3">
+       <item>TE1 石油、天然气地质与勘探作</item>
+        <item>TE2 钻井工程 </item>
+        <item>TE3 油气田开发与开采</item>
+        <item>TE5 海上油气田开发与开采</item>
+        <item>TE6 石油、天然气加工工业</item>
+        <item>TE8 石油、天然气储存与运输</item>
+        <item>TE9 石油机械设备与自动化</item>
+        <item>TE99 石油、天然气工业环境保护与综合利用</item>
+   </string-array>
+   <string-array name="series_childname18_4">
+       <item>TF0 一般性问题 </item>
+        <item>TF1 冶金技术</item>
+        <item>TF3 冶金机械、冶金生产自动化</item>
+        <item>TF4 钢铁冶炼（黑色金属冶炼）</item>
+        <item>TF5 炼铁</item>
+        <item>TF6 铁合金冶炼</item>
+        <item>TF7 炼钢</item>
+        <item>TF79 其它黑色金属冶炼</item>
+        <item>TF8 有色金属冶炼 </item>
+        <item>TF80 一般性问题</item>
+        <item>TF81 重金属冶炼</item>
+        <item>TF82 轻金属冶炼</item>
+        <item>TF83 贵重金属及铂族金属冶炼</item>
+        <item>TF84 稀有金属冶炼</item>
+        <item>TF88 放射性元素冶炼</item>
+        <item>TF89 半导体元素冶炼</item>
+   </string-array>
+   <string-array name="series_childname18_5">
+        <item>TG1 金属学、热处理</item>
+        <item>TG2 铸造</item>
+        <item>TG3 金属压力加工</item>
+        <item>TG4 焊接、金属切削及粘接</item>
+        <item>TG5 金属切削加工及机床</item>
+        <item>TG7 刀具、磨料、磨具、夹具、模具、手工具</item>
+        <item>TG8 公差与技术测量及机械量仪</item>
+        <item>TG9 钳工工艺、装配工艺 </item>
+   </string-array>
+   <string-array name="series_childname18_6">
+        <item>TH11 机械学（机械设计基础理论）</item>
+        <item>TH12 机械设计、计算与制图</item>
+        <item>TH13 机械零件及传动装置</item>
+        <item>TH14 机械制造用材料</item>
+        <item>TH16 机械制造工艺</item>
+        <item>TH17 运行与维修</item>
+        <item>TH18 机械工厂（车间） </item>
+        <item>TH2 起重运输机械</item>
+        <item>TH3 泵</item>
+        <item>TH4 气体压缩与输送机械</item>
+        <item>TH6 专用机械与设备</item>
+        <item>TH7 仪器、仪表</item>
+   </string-array>
+   <string-array name="series_childname18_7">
+       <item>TJ0 一般性问题</item>
+        <item>TJ2 枪械 </item>
+        <item>TJ3 火炮</item>
+        <item>TJ4 弹药、引信、火工品</item>
+        <item>TJ5 爆破器材、烟火器材、火炸药</item>
+        <item>TJ6 水中兵器</item>
+        <item>TJ7 火箭、导弹</item>
+        <item>TJ8 战车、战舰、战机、航天武器</item>
+        <item>TJ9 核武器及其它特种武器与防护设备</item>
+   </string-array>
+   <string-array name="series_childname18_8">
+       <item>TK0 一般性问题</item>
+        <item>TK01 能源</item>
+        <item>TK02 蓄能技术</item>
+        <item>TK05 动力机械</item>
+        <item>TK08 动力厂</item>
+        <item>TK09 三废处理与综合利用</item>
+        <item>TK11 热能</item>
+        <item>TK12 热力工程理论 </item>
+        <item>TK14 气体透平（涡轮机）</item>
+        <item>TK16 燃料与燃烧</item>
+        <item>TK17 工业用热工设备</item>
+        <item>TK2 蒸汽动力工程</item>
+        <item>TK3 热工量测和热工自动控制</item>
+        <item>TK4 内燃机工程</item>
+        <item>TK5 特殊热能及其机械</item>
+        <item>TK6 生物能及其利用</item>
+        <item>TK7 水能、水力机械</item>
+        <item>TK8 风能、风力机械</item>
+        <item>TK91 氢能及其利用</item>
+   </string-array>
+   <string-array name="seies_childname18_9">
+        <item>TL1 基础理论</item>
+        <item>TL2 核燃料及其生产</item>
+        <item>TL3 核反应堆工程</item>
+        <item>TL4 各种核反应堆</item>
+        <item>TL5 加速器</item>
+        <item>TL6 受控热核反应</item>
+        <item>TL7 辐射防护</item>
+        <item>TL8 粒子探测技术、辐射探测技术与核仪器仪表</item>
+        <item>TL91 核爆炸</item>
+        <item>TL92 放射性同位素的生产与制备</item>
+        <item>TL929 辐射源 </item>
+        <item>TL93 放射性物质的包装、运输与贮存</item>
+        <item>TL94 放射性废物的管理与综合利用</item>
+        <item>TL99 原子能技术的应用</item>
+   </string-array>
+   <string-array name="series_childname18_10">
+        <item>TM0 一般性问题</item>
+        <item>TM1 电工基础理论</item>
+        <item>TM2 电工材料</item>
+        <item>TM3 电机 </item>
+        <item>TM4 变压器、变流器及电抗器</item>
+        <item>TM5 电器</item>
+        <item>TM6 发电、发电厂</item>
+        <item>TM7 输配电工程、电力网及电力系统</item>
+        <item>TM8 高电压技术</item>
+        <item>TM91 独立电源技术</item>
+        <item>TM92 电气化、电能应用</item>
+        <item>TM93 电气测量技术及仪器 </item>
+   </string-array>
+   <string-array name="series_childname18_11">
+       <item>TN0 一般性问题</item>
+        <item>TN1 真空电子技术</item>
+        <item>TN2 光电子技术、激光技术</item>
+        <item>TN3 半导体技术</item>
+        <item>TN4 微电子学、集成电路</item>
+        <item>TN6 电子元件、组件</item>
+        <item>TN7 基本电子电路 </item>
+        <item>TN8 无线电、电信设备</item>
+        <item>TN91 通信</item>
+        <item>TN92 无线通信</item>
+        <item>TN93 广播</item>
+        <item>TN94 电视</item>
+        <item>TN95 雷达</item>
+        <item>TN96 无线电导航</item>
+        <item>TN97 电子对抗 </item>
+        <item>TN98 无线电、电信测量技术及仪器</item>
+        <item>TN99 无线电电子学的应用</item>
+   </string-array>
+   <string-array name="series_childname18_12">
+       <item>TP1 自动化基础理论学</item>
+        <item>TP2 自动化技术及设备</item>
+        <item>TP3 计算技术、计算机</item>
+        <item>TP30 一般性问题</item>
+        <item>TP31 计算机软件</item>
+        <item>TP32 一般计算器和计算机</item>
+        <item>TP33 电子数字计算机</item>
+        <item>TP34 电子模拟计算机</item>
+        <item>TP35 混合电子计算机</item>
+        <item>TP36 微型计算机</item>
+        <item>TP38 其它计算机</item>
+        <item>TP39 计算机的应用</item>
+        <item>TP391 信息处理 </item>
+        <item>TP391.4 模式识别装置</item>
+        <item>TP391.7 机器辅助技术</item>
+        <item>TP392 各种专用数据库</item>
+        <item>TP393 计算机网络</item>
+        <item>TP399 在其它方面的应用</item>
+        <item>TP6 射流技术</item>
+        <item>TP7 遥感技术</item>
+        <item>TP8 远动技术 </item>
+   </string-array>
+   <string-array name="series_childname18_13">
+       <item>TQ0 一般性问题</item>
+        <item>TQ11 基本无机化学工业</item>
+        <item>TQ12 非金属元素及其无机化合物化学工业</item>
+        <item>TQ13 金属元素的无机化合物化学工业</item>
+        <item>TQ15 电化学工业</item>
+        <item>TQ16 电热工业、高温制品工业</item>
+        <item>TQ17 硅酸盐工业</item>
+        <item>TQ2 基本有机化学工业</item>
+        <item>TQ31 高分子化合物工业</item>
+        <item>TQ32 合成树脂与塑料工业</item>
+        <item>TQ33 橡胶工业</item>
+        <item>TQ34 化学纤维工业</item>
+        <item>TQ35 纤维素质的化学加工工业</item>
+        <item>TQ41 溶剂与增塑剂的生产</item>
+        <item>TQ42 试剂与纯化学品的生产 </item>
+        <item>TQ43 胶粘剂工业</item>
+        <item>TQ44 化学肥料工业</item>
+        <item>TQ45 农药工业</item>
+        <item>TQ46 制药化学工业</item>
+        <item>TQ51 燃料化学工业</item>
+        <item>TQ52 炼焦化学工业</item>
+        <item>TQ53 煤化学及煤的加工利</item>
+        <item>TQ54 煤炭气化工业 </item>
+        <item>TQ55 燃料照明工业</item>
+        <item>TQ56 爆炸物工业、火柴工业</item>
+        <item>TQ57 感光材料工业</item>
+        <item>TQ58 磁性记录材料工业</item>
+        <item>TQ59 光学记录材料工业</item>
+        <item>TQ61 染料及中间体工业</item>
+        <item>TQ62 颜料工业</item>
+        <item>TQ63 涂料工业 </item>
+        <item>TQ64 油脂和蜡的化学加工工业、肥皂工业</item>
+        <item>TQ65 香料及化妆品工业</item>
+        <item>TQ9 其它化学工业</item>
+   </string-array>
+   <string-array name="series_childname18_14">
+       <item>TS0 一般性问题</item>
+        <item>TS1 纺织工业、整染工业</item>
+        <item>TS2 食品工业</item>
+        <item>TS3 制盐工业 </item>
+        <item>TS4 烟草工业</item>
+        <item>TS5 皮革工业</item>
+        <item>TS6 木材加工工业、家具制造工业</item>
+        <item>TS7 造纸工业</item>
+        <item>TS8 印刷工业</item>
+        <item>TS91 五金制品工业</item>
+        <item>TS93 工艺美术制品工业</item>
+        <item>TS94 服装工业、制鞋工业</item>
+        <item>TS95 其它轻工业、手工业</item>
+        <item>TS97 生活供应技术</item>
+   </string-array>
+   <string-array name="series_childname18_15">
+       <item>TU1 建筑基础科学</item>
+        <item>TU19 建筑勘测</item>
+        <item>TU2 建筑设计</item>
+        <item>TU3 建筑结构</item>
+        <item>TU4 土力学、地基基础工程</item>
+        <item>TU5 建筑材料</item>
+        <item>TU6 建筑施工机械和设备</item>
+        <item>TU7 建筑施工</item>
+        <item>TU8 房屋建筑设备</item>
+        <item>TU9 地下建</item>
+        <item>TU97 高层建筑</item>
+        <item>TU98 区域规划、城镇规划</item>
+        <item>TU99 市政工程</item>
+   </string-array>
+   <string-array name="series_childname18_16">
+       <item>TV1 水利工程基础科学</item>
+        <item>TV21 水资源调查与水利规划</item>
+        <item>TV22 水工勘测、设计</item>
+        <item>TV3 水工结构</item>
+        <item>TV4 水工材料</item>
+        <item>TV5 水利工程施工</item>
+        <item>TV6 水利枢纽、水工建筑物</item>
+        <item>TV7 水能利用、水电站工程</item>
+        <item>TV8 治河工程与防洪工程</item>
+        <item>TV91 运渠（运河、渠道）工程</item>
+        <item>TV92 港湾工程</item>
+        <item>TV93 农田水利工程</item>
+   </string-array>
+   <string-array name="series_childname19">
+       <item>U1 综合运输</item>
+        <item>U2 铁路运输</item>
+        <item>U4 公路运输</item>
+        <item>U6 水路运输</item>
+        <item>U8 航空运输</item>
+   </string-array>
+   <string-array name="series_childname20">
+       <item>V1 航空、航天技术的研究与探索</item>
+        <item>V2 航空</item>
+        <item>V21 基础理论及试验</item>
+        <item>V22 飞机构造与设计</item>
+        <item>V23 航空发动机</item>
+        <item>V24 航空仪表、设备、控制与导航 </item>
+        <item>V25 航空用材料</item>
+        <item>V26 航空制造工艺</item>
+        <item>V27 各类型航空器</item>
+        <item>V31 航空用燃料及润滑剂</item>
+        <item>V32 航空飞行术</item>
+        <item>V35 航空港（站）、机场及技术管理</item>
+        <item>V37 航空系统工程</item>
+        <item>V4 航天（宇宙航行） </item>
+        <item>V41 基础理论及试验</item>
+        <item>V42 火箭、航天器构造</item>
+        <item>V43 推进系统（发动机、推进器）</item>
+        <item>V44 仪表、设备、制导与控制</item>
+        <item>V45 航天用材料</item>
+        <item>V46 制造工艺</item>
+        <item>V47 航天器及其运载工具</item>
+        <item>V51 航天用染料（推进剂）及润滑剂 </item>
+        <item>V52 航天术</item>
+        <item>V55 地面设备、试验场、发射场、航天基地</item>
+        <item>V57 航天系统工程</item>
+        <item>V7 航空、航天医学</item>
+   </string-array>
+   <string-array name="series_childname21">
+       <item>X1 环境科学基础理论</item>
+        <item>X2 环境综合研究</item>
+        <item>X3 环境保护管理</item>
+        <item>X4 灾害及其防治</item>
+        <item>X5 环境污染及其防治</item>
+        <item>X7 三废处理与综合利用 </item>
+        <item>X8 环境质量评价与环境监测</item>
+        <item>X9 劳动保护科学</item>
+   </string-array>
+   <string-array name="series_childname22">
+       <item>Z1 丛书</item>
+        <item>Z2 百科全书、类书</item>
+        <item>Z3 辞典</item>
+        <item>Z4 论文集、全集、选集、杂著</item>
+        <item>Z5 年鉴、年刊</item>
+        <item>Z6 期刊、连续性出版物 </item>
+        <item>Z8 图书目录、文摘、索引</item>
+   </string-array>
+  </resources>

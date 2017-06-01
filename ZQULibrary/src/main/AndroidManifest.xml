@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zqu.library"
+    android:versionCode="1"
+    android:versionName="13.10">
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+        <!-- 程序开始界面Splash -->
+        <activity
+            android:name=".AppStartActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 主界面 -->
+        <activity android:name=".MainActivity" />
+
+        <!-- 图书检索 -->
+        <activity
+            android:name=".SearchBookActivity"
+            android:windowSoftInputMode="adjustPan" />
+
+        <!-- 图书检索结果 -->
+        <activity android:name=".SearchBookResultActivity" />
+
+        <!-- 图书导航 -->
+        <activity android:name=".BookshelfActivity" />
+
+        <!-- 图书导航结果 -->
+        <activity android:name=".BookshelfItemShowActivity" />
+
+        <!-- 新书通报 -->
+        <activity android:name=".NewBookActivity" />
+
+        <!-- 用户登录 -->
+        <activity android:name=".LoginActivity" />
+
+        <!-- 关于 -->
+        <activity android:name=".AboutActivity" />
+
+        <!-- 用户中心 -->
+        <activity android:name=".user.UserCenterActivity" />
+
+        <!-- 用户信息 -->
+        <activity android:name=".user.UserInfoActivity" />
+
+        <!-- 修改密码 -->
+        <activity android:name=".user.UserChangePwActivity" />
+
+        <!-- 借书情况 -->
+        <activity android:name=".user.UserBorrowBookConditionActivity" />
+
+        <!-- 催还图书 -->
+        <activity android:name=".user.UserBookOverdueNoticeActivity" />
+
+        <!-- 借书历史 -->
+        <activity android:name=".user.UserBorrowBookHistoryActivity" />
+
+        <!-- 图书信息显示 -->
+        <activity android:name=".BookInfoActivity" />
+        <activity android:name=".util.NewsWeb"></activity>
+        <activity android:name="library.Book_Shelf_MainActivity" />
+        <activity android:name="library.BrowselistviewActivity" />
+    </application>
+
+</manifest>

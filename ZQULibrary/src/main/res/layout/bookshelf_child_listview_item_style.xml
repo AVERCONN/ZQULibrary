@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 分类浏览listview样式 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_list_item_bg"
+    android:padding="6dp" >
+
+    <ImageView
+        android:id="@+id/bookshelfChildListviewItemStyle_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/list_item_arrow" />
+
+    <!-- 书名 -->
+
+    <TextView
+        android:id="@+id/bookshelfChildListviewItemStyle_bookName_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/bookshelfChildListviewItemStyle_arrow"
+        android:text="Android 4.X从入门到精通[专著]"
+        android:textColor="#454545"
+        android:textSize="20sp" />
+
+    <!-- 索引号 -->
+
+    <TextView
+        android:id="@+id/bookshelfChildListviewItemStyle_indexNo_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/bookshelfChildListviewItemStyle_bookName_tv"
+        android:layout_below="@id/bookshelfChildListviewItemStyle_bookName_tv"
+        android:layout_marginTop="@dimen/content_border_margin"
+        android:text="索引号:TP368.1/M513"
+        android:textColor="#5698f7"
+        android:textSize="15sp" />
+
+    <!-- 出版年 -->
+
+    <TextView
+        android:id="@+id/bookshelfChildListviewItemStyle_publicationDate_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/bookshelfChildListviewItemStyle_bookName_tv"
+        android:layout_below="@id/bookshelfChildListviewItemStyle_indexNo_tv"
+        android:text="出版年：2013"
+        android:textColor="@color/common_text_color"
+        android:textSize="15sp" />
+
+    <!-- 出版社 -->
+
+    <TextView
+        android:id="@+id/bookshelfChildListviewItemStyle_press_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/bookshelfChildListviewItemStyle_bookName_tv"
+        android:layout_below="@id/bookshelfChildListviewItemStyle_publicationDate_tv"
+        android:text="出版社: 科学出版社"
+        android:textColor="@color/common_text_color"
+        android:textSize="15sp" />
+
+    <!-- 系统控制号 -->
+
+    <TextView
+        android:id="@+id/bookshelfChildListviewItemStyle_ctrlNo_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+</RelativeLayout>

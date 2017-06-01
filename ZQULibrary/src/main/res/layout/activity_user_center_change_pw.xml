@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_bg_color"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        style="@style/titlebar" >
+
+        <TextView
+            android:id="@+id/ucChangePw_titlebar_title"
+            style="@style/titlebar_title"
+            android:text="@string/userChangePw_title" />
+    </RelativeLayout>
+
+    <!-- 旧密码 -->
+
+    <EditText
+        android:id="@+id/ucChangePw_oldPw_edt"
+        style="@style/input_box"
+        android:layout_marginTop="@dimen/content_top_margin"
+        android:hint="@string/user_old_pw_label"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/ucChangePw_newPw_edt"
+        style="@style/input_box"
+        android:layout_marginTop="@dimen/content_border_margin"
+        android:hint="@string/user_new_pw_label"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/ucChangePw_re_newPw_edt"
+        style="@style/input_box"
+        android:layout_marginTop="@dimen/content_border_margin"
+        android:hint="@string/user_re_new_pw_label"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/ucChangePw_pwDisplay_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/content_border_margin"
+        android:layout_marginTop="@dimen/content_border_margin"
+        android:drawableLeft="@drawable/pw_hind"
+        android:gravity="center_vertical"
+        android:text="@string/user_pw_display_label"
+        android:textColor="#606060"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/content_border_margin"
+        android:layout_marginRight="@dimen/content_border_margin"
+        android:layout_marginTop="@dimen/content_top_margin"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/ucChangePw_confirm_btn"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/common_btn_height"
+            android:layout_weight="1"
+            android:background="@drawable/selector_btn_bg"
+            android:text="@string/user_change_confirm"
+            android:textColor="@drawable/btn_text_color"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/ucChangePw_reset_btn"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/common_btn_height"
+            android:layout_marginLeft="25dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_btn_bg"
+            android:text="@string/user_change_reset"
+            android:textColor="@drawable/btn_text_color"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>

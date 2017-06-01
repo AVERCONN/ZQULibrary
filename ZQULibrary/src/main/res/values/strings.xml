@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">肇庆学院图书馆</string>
+    <string name="app_version">v 13.10</string>
+    <string name="app_copyright"></string>
+    <string name="back">返回</string>
+    <string name="load_more">加载更多</string>
+
+    <!-- 主界面 -->
+    <string name="searchBook">检索</string>
+    <string name="bookShelf">分类浏览</string>
+    <string name="newBook">入库新书</string>
+    <string name="user">个人中心</string>
+    <string name="exit">退出</string>
+    <string name="about">关于</string>
+
+    <!-- 图书检索界面 -->
+    <string name="searchBook_title">图书检索</string>
+    <string name="searchBook_bookLocation">馆藏地:</string>
+    <string name="searchBook_inputHint">请输入关键字</string>
+    <string name="searchBook_search">检索</string>
+    <string name="searchBook_clear">清空</string>
+    <string name="searchBookResult_title">搜索结果</string>
+
+    <!-- 登录界面 -->
+    <string name="login_title">用户登录</string>
+    <string name="login_account_input_hint">借阅证帐号</string>
+    <string name="login_pw_input_hint">借阅证密码</string>
+    <string name="login_login_btn_text">登录</string>
+    <string name="login_reset_btn_text">重置</string>
+
+    <!-- 关于界面 -->
+    <string name="about_title">关于</string>
+    <string name="weibo">微博名:Aboo_Jan</string>
+    <string name="email">邮箱:aboojaner@gmail.com</string>
+    <string name="feedback">欢迎通过以上方式进行反馈建议</string>
+
+    <!-- 用户中心 -->
+    <string name="userCenter_title">用户中心</string>
+    <string name="userCenter_item1">个人信息</string>
+    <string name="userCenter_item2">修改密码</string>
+    <string name="userCenter_item3">借书情况</string>
+    <string name="userCenter_item4">催还图书</string>
+    <string name="userCenter_item5">借书历史</string>
+    <string name="userInfo_title">用户信息</string>
+
+    <!-- 用户信息界面 -->
+    <string name="user_info_label">用户信息</string>
+    <string name="user_name_label">姓名:</string>
+    <string name="user_status_label">状态:</string>
+    <string name="user_type_label">类型:</string>
+    <string name="user_dept_label">学院:</string>
+    <string name="user_balance_label">余额:</string>
+    <!-- 密码修改界面 -->
+    <string name="userChangePw_title">密码修改</string>
+    <string name="user_old_pw_label">旧  密  码</string>
+    <string name="user_new_pw_label">新  密  码</string>
+    <string name="user_re_new_pw_label">重复密码</string>
+    <string name="user_change_confirm">确定</string>
+    <string name="user_change_reset">重置</string>
+    <string name="user_pw_display_label">显示密码</string>
+    <!-- 书 -->
+    <string name="book_name_label">书名</string>
+    <string name="book_press_label">出版社</string>
+    <string name="book_publicationDate_label">出版日期</string>
+    <!-- 借书情况 -->
+    <string name="userBorrowBookCondition_title">借书情况</string>
+    <string name="user_book_return_date_label">应还日期</string>
+    <!-- 催还图书 -->
+    <string name="userBookOverdueNotice_title">催还图书</string>
+    <string name="user_book_pastdue_days_label">过期天数</string>
+    <!-- 我的借书历史 -->
+    <string name="user_borrow_book_history_label">我的借书历史</string>
+
+    <!-- 分类导航 -->
+    <string name="bookshelf_title">分类浏览</string>
+    <string name="bookshelfItem_title">分类浏览项</string>
+
+    <!-- 新书通报 -->
+    <string name="new_book_title">入库新书</string>
+    <string name="new_book_menu">类别</string>
+
+    <!-- 图书信息 -->
+    <string name="book_info_title">图书信息</string>
+    <string name="book_info_base">基本信息</string>
+    <string name="book_info_content">内容简介</string>
+    <string name="dialogBookIntro_title">内容简介</string>
+    <string name="dialogBookIntro_close">关闭</string>
+    <!-- 基本信息 -->
+    <string name="book_info_book_name">书名:</string>
+    <string name="book_info_book_writer">作者:</string>
+    <string name="book_info_book_press">出版社:</string>
+    <string name="book_info_book_pulicationData">出版日期:</string>
+    <string name="book_info_book_location">馆藏地:</string>
+    <string name="book_info_book_indexNo">索取号:</string>
+    <string name="book_info_book_status">状态:</string>
+    <string name="book_info_book_language">借阅类型:</string>
+
+    <!-- 退出Dialog -->
+    <string name="dialogExit_title">退出</string>
+    <string name="dialogExit_tip">你确定要退出吗?</string>
+    <string name="dialogExit_confirm">确定</string>
+    <string name="dialogExit_cancle">取消</string>
+
+    <!-- 图书分类 -->
+    <string name="bookshelfList_item_1">A 马克思主义、列宁主义、毛泽东思想 </string>
+    <string name="bookshelfList_item_2">B 哲学 </string>
+    <string name="bookshelfList_item_3">C 社会科学总论</string>
+    <string name="bookshelfList_item_4">D 政治、法律 </string>
+    <string name="bookshelfList_item_5">E 军事</string>
+    <string name="bookshelfList_item_6">F 经济</string>
+    <string name="bookshelfList_item_7">G1 世界各国文化事业概况</string>
+    <string name="bookshelfList_item_8">G2 信息与知识传播</string>
+    <string name="bookshelfList_item_9">G3 科学、科学研究</string>
+    <string name="bookshelfList_item_10">G4 教育</string>
+    <string name="bookshelfList_item_11">H 语言、文字</string>
+    <string name="bookshelfList_item_12">I 文学 </string>
+    <string name="bookshelfList_item_13">J 艺术</string>
+    <string name="bookshelfList_item_14">K 历史、地理</string>
+    <string name="bookshelfList_item_15">N 自然科学总论</string>
+    <string name="bookshelfList_item_16">O1 数学</string>
+    <string name="bookshelfList_item_17">O3 力学</string>
+    <string name="bookshelfList_item_18">O4 物理学</string>
+    <string name="bookshelfList_item_19">O6 化学</string>
+    <string name="bookshelfList_item_20">O7 晶体学</string>
+    <string name="bookshelfList_item_21">P 天文学、地球科学</string>
+    <string name="bookshelfList_item_22">Q 生物科学</string>
+    <string name="bookshelfList_item_23">R 医药、卫生</string>
+    <string name="bookshelfList_item_24">S 农业科学</string>
+    <string name="bookshelfList_item_25">TB 一般工业技术</string>
+    <string name="bookshelfList_item_26">TD 矿业工程</string>
+    <string name="bookshelfList_item_27">TE 石油、天然气工业 </string>
+    <string name="bookshelfList_item_28">TF 冶金工业</string>
+    <string name="bookshelfList_item_29">TG 金属学、金属工艺</string>
+    <string name="bookshelfList_item_30">TH 机械、仪表工业</string>
+    <string name="bookshelfList_item_31">TJ 武器工业 </string>
+    <string name="bookshelfList_item_32">TK 动力工程</string>
+    <string name="bookshelfList_item_33">TL 原子能技术</string>
+    <string name="bookshelfList_item_34">TM 电工技术</string>
+    <string name="bookshelfList_item_35">TN 无线电电子学、电信技术</string>
+    <string name="bookshelfList_item_36">TP 自动化技术、计算技术</string>
+    <string name="bookshelfList_item_37">TQ 化学工业</string>
+    <string name="bookshelfList_item_38">TS 轻工业、手工业</string>
+    <string name="bookshelfList_item_39">TU 建筑科学 </string>
+    <string name="bookshelfList_item_40">TV 水利工程</string>
+    <string name="bookshelfList_item_41">U 交通运输</string>
+    <string name="bookshelfList_item_42">V 航空、航天 </string>
+    <string name="bookshelfList_item_43">X 环境科学、劳动保护科学</string>
+    <string name="bookshelfList_item_44">Z 综合性图书</string>
+
+
+    <string name="bookitemname">浏览子项</string>
+    <string name="scanbook">浏览图书</string>
+
+</resources>

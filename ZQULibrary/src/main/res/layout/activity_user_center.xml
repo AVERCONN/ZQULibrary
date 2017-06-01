@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_bg_color"
+    android:orientation="vertical" >
+
+    <RelativeLayout style="@style/titlebar" >
+
+        <TextView
+            android:id="@+id/userCenter_titlebar_title"
+            style="@style/titlebar_title"
+            android:text="@string/userCenter_title" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/userCenter_head_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/content_border_margin"
+        android:gravity="center_horizontal"
+        android:textColor="#6c6c6c"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/userCenter_item_userInfo"
+        style="@style/userCenter_item"
+        android:layout_marginTop="@dimen/content_top_margin"
+        android:background="@drawable/selector_list_item_top_bg"
+        android:text="@string/userCenter_item1" />
+
+    <TextView
+        android:id="@+id/userCenter_item_pwChange"
+        style="@style/userCenter_item"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/selector_list_item_bg"
+        android:paddingLeft="4dp"
+        android:paddingRight="5dp"
+        android:text="@string/userCenter_item2" />
+
+    <TextView
+        android:id="@+id/userCenter_item_borrowBookCondition"
+        style="@style/userCenter_item"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/selector_list_item_bg"
+        android:paddingLeft="4dp"
+        android:paddingRight="5dp"
+        android:text="@string/userCenter_item3" />
+
+    <TextView
+        android:id="@+id/userCenter_item_bookOverdueNotice"
+        style="@style/userCenter_item"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/selector_list_item_bg"
+        android:paddingLeft="4dp"
+        android:paddingRight="5dp"
+        android:text="@string/userCenter_item4" />
+
+    <TextView
+        android:id="@+id/userCenter_item_borrowBookHistory"
+        style="@style/userCenter_item"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/selector_list_item_bottom_bg"
+        android:text="@string/userCenter_item5" />
+
+</LinearLayout>

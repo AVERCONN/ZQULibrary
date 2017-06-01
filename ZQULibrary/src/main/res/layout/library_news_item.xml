@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<ImageView
+    android:id="@+id/ln_image"
+    android:layout_width="20dp"
+    android:layout_height="20dp"
+
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true" />
+    <TextView
+        android:id="@+id/ln_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textSize="15dp"
+        android:text="图书馆新增多个电子资源 助力应用型人才培养基地"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/ln_image" />
+    <TextView
+        android:id="@+id/ln_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="【3-18】"
+        android:textSize="10dp"
+        android:layout_below="@+id/ln_image"
+        android:layout_alignParentRight="true" />
+</RelativeLayout>

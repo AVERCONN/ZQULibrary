@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_bg_color"
+    android:orientation="vertical" >
+
+    <RelativeLayout style="@style/titlebar" >
+
+        <TextView
+            android:id="@+id/ucBookOverdueNotice_titlebar_title"
+            style="@style/titlebar_title"
+            android:text="@string/userBookOverdueNotice_title" />
+    </RelativeLayout>
+
+    <!-- 在以下listview中要显示书名和过期天数 -->
+
+    <ListView
+        android:id="@+id/ucBookOverdueNotice_book_lv"
+        style="@style/listview" />
+
+</LinearLayout>

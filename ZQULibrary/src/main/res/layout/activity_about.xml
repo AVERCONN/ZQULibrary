@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_bg_color" >
+    
+    <RelativeLayout
+        android:id="@+id/about_titlebar"
+        style="@style/titlebar" >
+
+        <TextView
+            android:id="@+id/about_titlebar_title"
+            style="@style/titlebar_title"
+            android:text="@string/about_title" />
+    </RelativeLayout>
+    
+    <ImageView 
+        android:id="@+id/about_logo_img"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/about_titlebar"
+        android:layout_marginTop="@dimen/content_top_margin"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/app_logo" />
+    <TextView 
+        android:id="@+id/about_appName_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/content_border_margin"
+        android:layout_below="@id/about_logo_img"
+        android:text="@string/app_name"
+        android:textSize="20sp"
+        android:textColor="#606060" />
+    <TextView 
+        android:id="@+id/about_appVersion_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/about_appName_tv"
+        android:layout_marginTop="2dp"
+        android:text="@string/app_version"
+        android:textSize="15sp"
+        android:textColor="#606060" />
+    
+    <!--
+    <TextView
+        android:id="@+id/aboutMain_weibo_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/aboutMain_appVersion_tv"
+        android:layout_marginTop="8dp"
+        android:text="@string/weibo"
+        android:textColor="#606060"
+        android:textSize="20sp" />
+   <TextView 
+        android:id="@+id/aboutMain_email_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/aboutMain_weibo_tv"
+        android:layout_marginTop="1dp"
+        android:text="@string/email"
+        android:textSize="20sp"
+        android:textColor="#606060" />
+   -->
+   <!-- 
+    <TextView 
+        android:id="@+id/aboutMain_feedback_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/aboutMain_email_tv"
+        android:layout_marginTop="1dp"
+        android:text="@string/feedback"
+        android:textColor="#606060"
+        android:textSize="20sp" />
+    -->
+   <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/content_border_margin"
+        android:text="@string/app_copyright"
+        android:textSize="18sp"
+        android:textColor="#606060" />
+
+</RelativeLayout>

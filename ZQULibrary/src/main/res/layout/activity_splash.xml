@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Splash_rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_bg2" >
+
+    <RelativeLayout
+        android:id="@+id/Splash_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/splash_content_bg" >
+
+        <TextView
+            android:id="@+id/Splash_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Splash_title"
+            android:textColor="#606060"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/Splash_sentence_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Splash_title_tv"
+            android:text="@string/Splash_sentence_2"
+            android:textColor="#606060"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/content_border_margin"
+        android:text="@string/app_copyright"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+</RelativeLayout>

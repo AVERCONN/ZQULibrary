@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/content_top_margin" >
+
+    <LinearLayout style="@style/main_item_parent" >
+
+        <TextView
+            android:id="@+id/main_searchBook_tv"
+            style="@style/main_item"
+            android:drawableTop="@drawable/search"
+            android:text="@string/searchBook" />
+
+        <TextView
+            android:id="@+id/main_bookshelf_tv"
+            style="@style/main_item"
+            android:layout_marginLeft="2dp"
+            android:drawableTop="@drawable/bookshelf"
+            android:text="@string/bookShelf" />
+        <TextView
+            android:id="@+id/main_newbooks_tv"
+            style="@style/main_item"
+            android:layout_marginLeft="2dp"
+            android:drawableTop="@drawable/newbooks"
+            android:text="@string/newBook" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/main_item_parent"
+        android:layout_marginTop="7dp" >
+
+
+
+        <TextView
+            android:id="@+id/main_user_tv"
+            style="@style/main_item"
+            android:layout_marginLeft="2dp"
+            android:drawableTop="@drawable/user"
+            android:text="@string/user" />
+        <TextView
+            android:id="@+id/main_exit_tv"
+            style="@style/main_item"
+            android:layout_marginLeft="2dp"
+            android:drawableTop="@drawable/exit"
+            android:text="@string/exit" />
+        <TextView
+            android:id="@+id/main_about_tv"
+            style="@style/main_item"
+            android:layout_marginLeft="2dp"
+            android:drawableTop="@drawable/about"
+            android:text="@string/about" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/main_item_parent"
+        android:layout_marginBottom="@dimen/content_border_margin"
+        android:layout_marginTop="2dp" >
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

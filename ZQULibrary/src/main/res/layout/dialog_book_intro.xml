@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_bg"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:paddingBottom="@dimen/content_border_margin"
+        android:paddingLeft="@dimen/content_border_margin"
+        android:paddingTop="@dimen/content_border_margin"
+        android:text="@string/dialogBookIntro_title"
+        android:textColor="#5698f7"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#177EFA"
+        android:contentDescription="@string/app_name" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="300dp" >
+
+        <TextView
+            android:id="@+id/dialogBookIntro_content_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/content_border_margin"
+            android:text="@string/dialogBookIntro_title"
+            android:textColor="@color/common_text_color"
+            android:textSize="18sp" />
+    </ScrollView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#177EFA"
+        android:contentDescription="@string/app_name" />
+
+    <TextView
+        android:id="@+id/dialogBookIntro_close_tv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/selector_dialog_btn_bg"
+        android:gravity="center"
+        android:text="@string/dialogBookIntro_close"
+        android:textColor="@drawable/btn_text_color"
+        android:textSize="20sp" />
+
+</LinearLayout>

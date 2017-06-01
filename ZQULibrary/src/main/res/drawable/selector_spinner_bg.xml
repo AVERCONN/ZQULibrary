@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- 按钮被按下时显示的背景  -->
+    <item 
+        android:state_pressed="true"
+        android:drawable="@drawable/spinner_bg_1" />
+    
+    <!-- 按钮默认显示的背景  -->
+    <item 
+        android:drawable="@drawable/spinner_bg_0" />
+</selector>

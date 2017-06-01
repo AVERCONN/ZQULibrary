@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string 
+        name="searchbook"
+        >
+        http://10.0.1.102:81/clsbrowse_book.aspx
+    </string>
+    
+    <string 
+        name="baseurl"
+        >
+        http://10.0.1.102:81/
+    </string>
+</resources>
